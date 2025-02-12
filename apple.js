@@ -36,8 +36,21 @@
 // prompt                //JS Builtin Funtion
 
 
-prompt("Enter Name" , "adnan@gmail.com");   
+// prompt("Enter Name" , "adnan@gmail.com");   
 
-prompt("Enter Email");    
+// prompt("Enter Email");    
 
+
+// var firstname = prompt("Enter first name")
+
+// var lastname = prompt("Enter last name")
+
+// console.log(firstname, lastname)
+
+
+var firstnum = +prompt("Enter first value");
+
+ var lastnum = +prompt("Enter last value");
+
+console.log("Subtract of two values is:" , firstnum - lastnum);
 
